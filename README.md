@@ -15,7 +15,9 @@ Features
 Requirements
 ------------
 Python 3.8+ and the following packages:
-    pip install gymnasium torch numpy
+    - gymnasium
+    - torch
+    - numpy
 
 Files
 -----
