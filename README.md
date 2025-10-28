@@ -79,6 +79,4 @@ Future Improvements
 
 License
 -------
-MIT License — free to modify and reuse.
-
-Author: Your Name
+Author: Triston Aloyssius Marta
