@@ -22,23 +22,31 @@ Python 3.8+ and the following packages:
 Files
 -----
 dqn_frozenlake_double_per.py - Main training script.
+
 README.txt - This documentation file.
 
 How to Run
 ----------
 1. Install dependencies:
+
        pip install gymnasium torch numpy
-2. Run the training script:
+   
+3. Run the training script:
+
        python dqn_frozenlake_double_per.py
 
 Algorithm Overview
 ------------------
 Double DQN:
+
     - Uses separate networks for action selection and evaluation.
+    
     - Reduces overestimation of Q-values and stabilizes training.
 
 Prioritized Experience Replay:
+
     - Samples transitions with higher TD-error more frequently.
+    
     - Applies importance sampling weights to correct bias.
 
 Key Hyperparameters
